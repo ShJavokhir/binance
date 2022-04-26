@@ -367,6 +367,7 @@ export interface SymbolExchangeInfo {
   orderTypes: OrderType[];
   icebergAllowed: boolean;
   ocoAllowed: boolean;
+  allowTrailingStop: boolean;
   isSpotTradingAllowed: boolean;
   isMarginTradingAllowed: boolean;
   filters: SymbolFilter[];
