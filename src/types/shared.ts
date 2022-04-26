@@ -271,6 +271,14 @@ export interface ExchangeMaxAlgoOrdersFilter {
   maxNumAlgoOrders: number;
 }
 
+export interface ExchangeTrailingDeltaFilter {
+  filterType: 'TRAILING_DELTA';
+  minTrailingAboveDelta: number;
+  maxTrailingAboveDelta: number;
+  minTrailingBelowDelta: number;
+  maxTrailingBelowDelta: number;
+}
+
 export type ExchangeFilter = ExchangeMaxNumOrdersFilter | ExchangeMaxAlgoOrdersFilter;
 
 export type OrderBookPrice = numberInString;
