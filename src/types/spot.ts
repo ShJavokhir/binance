@@ -300,6 +300,7 @@ export interface NewSpotOrderParams {
   newOrderRespType?: OrderResponseType;
   isIsolated?: StringBoolean;
   sideEffectType?: SideEffects;
+  trailingDelta? : number;
 }
 
 export interface GetOCOParams {

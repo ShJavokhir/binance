@@ -163,6 +163,7 @@ export interface NewOCOParams {
   newOrderRespType: OrderResponseType;
   isIsolated?: StringBoolean;
   sideEffectType?: SideEffects;
+  trailingDelta? : number;
 }
 
 export interface SymbolFromPaginatedRequestFromId {
